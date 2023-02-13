@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 public class ThreeStuckVars {
     public static void main(String[] args) {
-        Scanner S = new Scanner(System.in);
-        int num = S.nextInt();
-        int answer = num / 5;
-        System.out.println(answer);
+
+        int first = 1, second = 10, third = 100;
+        System.out.println(first+second+third);
     }
 }
